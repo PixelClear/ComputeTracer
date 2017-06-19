@@ -1,0 +1,291 @@
+﻿Build started 6/19/2017 3:57:23 PM.
+     1>Project "D:\Backup_Projects\TeslaCompute\TeslaCompute-master\TeslaCompute\TeslaCompute.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\Backup_Projects\TeslaCompute\TeslaCompute-master\\Include" /I"D:\Backup_Projects\TeslaCompute\TeslaCompute-master\\Include\assimp" /I"D:\Backup_Projects\TeslaCompute\TeslaCompute-master\\Include\ImageMagick-6" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TeslaComputeTracerMain.cpp
+         TeslaComputeTracerMain.cpp
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(456): warning C4251: 'Magick::DrawableBezier::_coordinates' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::DrawableBezier'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(498): warning C4251: 'Magick::DrawablePushClipPath::_id' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePushClipPath'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(526): warning C4251: 'Magick::DrawableClipPath::_id' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::DrawableClipPath'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(959): warning C4251: 'Magick::DrawableFont::_font' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::DrawableFont'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(960): warning C4251: 'Magick::DrawableFont::_family' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::DrawableFont'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(1128): warning C4251: 'Magick::DrawablePath::_path' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePath'
+                 with
+                 [
+                     _Ty=Magick::VPath
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(1217): warning C4251: 'Magick::DrawablePolygon::_coordinates' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePolygon'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(1237): warning C4251: 'Magick::DrawablePolyline::_coordinates' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePolyline'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(1321): warning C4251: 'Magick::DrawablePushPattern::_id' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::DrawablePushPattern'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(1923): warning C4251: 'Magick::DrawableText::_text' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::DrawableText'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(1924): warning C4251: 'Magick::DrawableText::_encoding' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::DrawableText'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(2255): warning C4251: 'Magick::PathArcAbs::_coordinates' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::PathArcAbs'
+                 with
+                 [
+                     _Ty=Magick::PathArcArgs
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(2277): warning C4251: 'Magick::PathArcRel::_coordinates' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::PathArcRel'
+                 with
+                 [
+                     _Ty=Magick::PathArcArgs
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(2428): warning C4251: 'Magick::PathCurvetoAbs::_args' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::PathCurvetoAbs'
+                 with
+                 [
+                     _Ty=Magick::PathCurvetoArgs
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(2451): warning C4251: 'Magick::PathCurvetoRel::_args' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::PathCurvetoRel'
+                 with
+                 [
+                     _Ty=Magick::PathCurvetoArgs
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(2475): warning C4251: 'Magick::PathSmoothCurvetoAbs::_coordinates' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::PathSmoothCurvetoAbs'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(2500): warning C4251: 'Magick::PathSmoothCurvetoRel::_coordinates' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::PathSmoothCurvetoRel'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(2609): warning C4251: 'Magick::PathQuadraticCurvetoAbs::_args' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::PathQuadraticCurvetoAbs'
+                 with
+                 [
+                     _Ty=Magick::PathQuadraticCurvetoArgs
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(2633): warning C4251: 'Magick::PathQuadraticCurvetoRel::_args' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::PathQuadraticCurvetoRel'
+                 with
+                 [
+                     _Ty=Magick::PathQuadraticCurvetoArgs
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(2657): warning C4251: 'Magick::PathSmoothQuadraticCurvetoAbs::_coordinates' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::PathSmoothQuadraticCurvetoAbs'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(2681): warning C4251: 'Magick::PathSmoothQuadraticCurvetoRel::_coordinates' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::PathSmoothQuadraticCurvetoRel'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(2709): warning C4251: 'Magick::PathLinetoAbs::_coordinates' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::PathLinetoAbs'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(2733): warning C4251: 'Magick::PathLinetoRel::_coordinates' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::PathLinetoRel'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(2875): warning C4251: 'Magick::PathMovetoAbs::_coordinates' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::PathMovetoAbs'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\drawable.h(2899): warning C4251: 'Magick::PathMovetoRel::_coordinates' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::PathMovetoRel'
+                 with
+                 [
+                     _Ty=Magick::Coordinate
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\exception.h(31): warning C4251: 'Magick::Exception::_what' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::Exception'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\coderinfo.h(65): warning C4251: 'Magick::CoderInfo::_name' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::CoderInfo'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\coderinfo.h(66): warning C4251: 'Magick::CoderInfo::_description' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::CoderInfo'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\montage.h(90): warning C4251: 'Magick::Montage::_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\montage.h(92): warning C4251: 'Magick::Montage::_font' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\montage.h(95): warning C4251: 'Magick::Montage::_label' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\montage.h(99): warning C4251: 'Magick::Montage::_texture' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\montage.h(101): warning C4251: 'Magick::Montage::_title' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::Montage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\stl.h(134): warning C4251: 'Magick::annotateImage::_text' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::annotateImage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\stl.h(213): warning C4251: 'Magick::cdlImage::_cdl' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::cdlImage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\stl.h(273): warning C4251: 'Magick::commentImage::_comment' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::commentImage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\stl.h(385): warning C4251: 'Magick::drawImage::_drawableList' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'Magick::drawImage'
+                 with
+                 [
+                     _Ty=Magick::Drawable
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\stl.h(651): warning C4251: 'Magick::labelImage::_label' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::labelImage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\stl.h(1299): warning C4251: 'Magick::backgroundTextureImage::_backgroundTexture' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::backgroundTextureImage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\stl.h(1474): warning C4251: 'Magick::fileNameImage::_fileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::fileNameImage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\stl.h(1498): warning C4251: 'Magick::fontImage::_font' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::fontImage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\stl.h(1558): warning C4251: 'Magick::magickImage::_magick' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::magickImage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\stl.h(1817): warning C4251: 'Magick::tileNameImage::_tileName' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::tileNameImage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\stl.h(1854): warning C4251: 'Magick::viewImage::_view' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::viewImage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\include\imagemagick-6\magick++\stl.h(1867): warning C4251: 'Magick::x11DisplayImage::_display' : class 'std::basic_string<_Elem,_Traits,_Alloc>' needs to have dll-interface to be used by clients of class 'Magick::x11DisplayImage'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Alloc=std::allocator<char>
+                 ]
+     1>d:\backup_projects\teslacompute\teslacompute-master\teslacompute\teslacomputetracermain.cpp(297): warning C4101: 'mainWinID' : unreferenced local variable
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Backup_Projects\TeslaCompute\TeslaCompute-master\Debug\TeslaCompute.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Backup_Projects\TeslaCompute\TeslaCompute-master\\Lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib freeglut.lib glew32.lib CORE_DB_Magick++_.lib FreeImage.lib freetype2410_D.lib AntTweakBar.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Backup_Projects\TeslaCompute\TeslaCompute-master\Debug\TeslaCompute.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Backup_Projects\TeslaCompute\TeslaCompute-master\Debug\TeslaCompute.lib" /MACHINE:X86 Debug\TeslaComputeTracerMain.obj
+         TeslaCompute.vcxproj -> D:\Backup_Projects\TeslaCompute\TeslaCompute-master\Debug\TeslaCompute.exe
+     1>Done Building Project "D:\Backup_Projects\TeslaCompute\TeslaCompute-master\TeslaCompute\TeslaCompute.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.85
